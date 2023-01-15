@@ -1,0 +1,10 @@
+{
+  "/_app": "pages/_app.js",
+  "/api/hello": "pages/api/hello.js",
+  "/graphExample": "pages/graphExample.html",
+  "/": "pages/index.html",
+  "/sell-nft": "pages/sell-nft.html",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}
