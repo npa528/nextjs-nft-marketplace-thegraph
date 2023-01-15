@@ -2,7 +2,7 @@ import { useMoralis } from "react-moralis"
 import NFTBox from "../components/NFTBox"
 import networkMapping from "../constants/networkMapping.json"
 import GET_ACTIVE_ITEMS from "../constants/subgraphQueries"
-import { useQuery, gql } from "@apollo/client"
+import { useQuery } from "@apollo/client"
 
 export default function Home() {
     const { chainId, isWeb3Enabled } = useMoralis()

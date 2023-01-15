@@ -32,10 +32,7 @@ export default function NFTBox({ price, nftAddress, tokenId, marketplaceAddress,
     const { runContractFunction: getTokenURI } = useWeb3Contract({
         abi: nftAbi,
         contractAddress: nftAddress,
-        functionName: "tokenURI",
-        params: {
-            tokenId: tokenId,
-        },
+        functionName: "TOKEN_URI",
     })
 
     const { runContractFunction: buyItem } = useWeb3Contract({
@@ -126,6 +123,8 @@ export default function NFTBox({ price, nftAddress, tokenId, marketplaceAddress,
                                         src={imageURI}
                                         height="200"
                                         width="200"
+                                        alt=""
+                                        unoptimized={true}
                                     />
                                     <div className="font-bold">
                                         {ethers.utils.formatUnits(price, "ether")} ETH
