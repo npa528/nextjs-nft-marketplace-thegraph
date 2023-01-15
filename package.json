@@ -1,4 +1,5 @@
 {
+  "homepage": "http://npa528.github.io/nextjs-nft-marketplace-thegraph",
   "name": "nextjs-nft-marketplace",
   "version": "0.1.0",
   "private": true,
@@ -6,10 +7,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@apollo/client": "^3.7.4",
+    "gh-pages": "^4.0.0",
     "graphql": "^16.6.0",
     "magic-sdk": "^13.1.0",
     "moralis": "^2.11.0",
