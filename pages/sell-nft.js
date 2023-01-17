@@ -110,19 +110,21 @@ export default function Home() {
                     {
                         name: "NFT Address",
                         type: "text",
-                        inputWidth: "50%",
+                        inputWidth: "25%",
                         value: "",
                         key: "nftAddress",
                     },
                     {
                         name: "Token ID",
                         type: "number",
+                        inputWidth: "25%",
                         value: "",
                         key: "tokenId",
                     },
                     {
                         name: "Price (in ETH)",
                         type: "number",
+                        inputWidth: "25%",
                         value: "",
                         key: "price",
                     },
