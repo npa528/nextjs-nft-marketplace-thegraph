@@ -124,6 +124,7 @@ export default function NFTBox({ price, nftAddress, tokenId, marketplaceAddress,
                                         height="200"
                                         width="200"
                                         alt=""
+                                        unoptimized={true}
                                     />
                                     <div className="font-bold">
                                         {ethers.utils.formatUnits(price, "ether")} ETH
