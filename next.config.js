@@ -1,7 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
+    reactStrictMode: true,
+    swcMinify: true,
+    exportTrailingSlash: true,
+
+    exportPathMap: function () {
+        return {
+            "/": { page: "/" },
+        }
+    },
 }
 
 module.exports = nextConfig
