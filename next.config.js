@@ -3,12 +3,6 @@ const nextConfig = {
     reactStrictMode: true,
     swcMinify: true,
     exportTrailingSlash: true,
-
-    exportPathMap: function () {
-        return {
-            "/": { page: "/" },
-        }
-    },
 }
 
 module.exports = nextConfig
