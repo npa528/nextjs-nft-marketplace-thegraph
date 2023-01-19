@@ -10,6 +10,8 @@ node_modules
 coverage
 coverage.json
 
+# don't push the environment vars!
+.env
 
 # Built application files
 .DS*
