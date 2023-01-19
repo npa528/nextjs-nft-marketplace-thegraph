@@ -5,6 +5,7 @@ const nextConfig = {
     trailingSlash: true,
     images: {
         unoptimized: true,
+        domains: ["https://ipfs.io/"],
     },
 
     exportPathMap: function () {
